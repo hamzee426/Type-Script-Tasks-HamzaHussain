@@ -1,10 +1,9 @@
-const fruits: string[] = ["Apple", "Banana", "Orange", "Grapes", "Mango"];
-
-const indexError = 10;
+var fruits = ["Apple", "Banana", "Orange", "Grapes", "Mango"];
+var indexError = 10;
 console.log("Trying to access an element at index 10:", fruits[indexError]);
-
 if (indexError >= 0 && indexError < fruits.length) {
     console.log("Corrected access at index 10:", fruits[indexError]);
-} else {
+}
+else {
     console.log("Index out of bounds. Please correct the index.");
 }
