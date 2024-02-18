@@ -1,7 +1,7 @@
-let alien_color: string = 'green';
-
+var alien_color = 'green';
 if (alien_color === 'green') {
     console.log("Congratulations! You just earned 5 points for shooting the green alien.");
-} else {
+}
+else {
     console.log("You just earned 10 points for shooting the alien.");
 }
